@@ -12,28 +12,9 @@ body {
 
 h1 {
   margin-bottom: 20px;
-}
-
-.container {
-  text-align: center;
-  padding: 20px;
   border: 2px solid #333;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  background-color: #e0e0e0; /* Light grey background */
-  max-width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 10px;
 }
-
-.round-image {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
 h2 {
   margin: 10px 0;
   font-size: 1.5rem;
@@ -42,6 +23,13 @@ h2 {
 h4 {
   margin: 10px 0;
   font-size: 1rem;
+}
+
+.round-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 button {
